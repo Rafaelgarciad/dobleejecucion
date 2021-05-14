@@ -13,7 +13,7 @@ public class DibujoCartesianas {
 
     public static Color crear3franjas(double x, double y) {
         if (x < 0.33) {
-            return new Color(255, 4, 28);
+
         }
         if (x < 0.66 && x > 0.33) {
             return new Color(0, 0, 0);
@@ -29,7 +29,7 @@ public class DibujoCartesianas {
 
     public static Color crear3columnas(double x, double y) {
         if (y < 0.33) {
-            return new Color(255, 4, 28);
+
         }
         if (y < 0.66 && y > 0.33) {
             return new Color(0, 0, 0);
@@ -50,16 +50,16 @@ public class DibujoCartesianas {
         }
 
         if (y < 0.22 && y > 0.11) {
-            return new Color(198, 11, 30);
+
         }
         if (y < 0.44 && y > 0.33) {
-            return new Color(198, 11, 30);
+
         }
         if (y < 0.66 && y > 0.55) {
-            return new Color(198, 11, 30);
+
         }
         if (y < 0.88 && y > 0.77) {
-            return new Color(198, 11, 30);
+
         }
         return new Color(247, 244, 30);
     }
